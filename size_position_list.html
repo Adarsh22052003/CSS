@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Size position and lists</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            display: inline;
+
+        }
+        header{
+            background-color: black;
+            color: white;
+            height: 70px;
+        }
+        .container{
+            font-size: 20px; 
+            background-color: aqua;
+            text-align: center;
+            width: 80%;
+            height: 80vh;
+            margin: auto;
+            /* position: relative; */
+        }
+        .box3{
+            height: 200px;
+            width: 200px;
+            background-color: red ;
+            border: 2px solid white;
+            /* position: relative; */
+            position: absolute;
+            /* top: 0px; */
+            /* left: 5px; */
+        }
+        .boxd{
+            /* font-size: 3em; */
+            /* font-size: 3rem; */
+            min-height: 50vh;
+            min-width: 50px;
+            background-color: green;
+        }
+        .box2{
+            background-color: brown;
+            width: 50vw;
+            height: 50vh;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>This is paragraph</p>
+        <div class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error voluptate, repellat aut similique veniam qui deserunt incidunt aliquam est? Dolor corporis ex nemo assumenda placeat in, odit consequatur blanditiis hic, quod explicabo, aspernatur debitis.
+        </div>
+        <div class="box2k">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti a, cumque recusandae deserunt ipsa veniam fugit? Consectetur possimus asperiores dolore facilis quidem corporis tempora recusandae. Temporibus, totam omnis! Quis, deserunt!
+        </div>
+        <div class="box3">
+            i am box
+        </div>
+    </div>
+</body>
+</html>
