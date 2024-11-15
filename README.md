@@ -8,5 +8,5 @@ font_display and practice
 size postion and list property practice set 
 float
 flexBox practice set
-Grid and media query
+Grid and media query and practice set
 
