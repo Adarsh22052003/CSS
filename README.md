@@ -9,5 +9,4 @@ size postion and list property practice set
 float
 flexBox practice set
 Grid and media query and practice set
-Transform transition and animation
-
+Transform transition and animation and practice set
